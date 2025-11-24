@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const user = getUser();
     if (!user || user.role !== 'admin') {
-        window.location.href = '/index.html';
+        window.location.href = 'index.html';
         return;
     }
     

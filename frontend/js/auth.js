@@ -4,7 +4,7 @@
 function checkAuth() {
     const token = getToken();
     if (!token) {
-        window.location.href = '/index.html';
+        window.location.href = 'index.html';
         return false;
     }
     return true;
@@ -13,16 +13,16 @@ function checkAuth() {
 // Redirect based on user role
 function redirectByRole(user) {
     if (user.role === 'admin') {
-        window.location.href = '/admin.html';
+        window.location.href = 'admin.html';
     } else {
-        window.location.href = '/student.html';
+        window.location.href = 'student.html';
     }
 }
 
 // Logout
 function logout() {
     removeToken();
-    window.location.href = '/index.html';
+    window.location.href = 'index.html';
 }
 
 // Login handler (used in index.html)

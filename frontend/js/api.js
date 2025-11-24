@@ -49,7 +49,7 @@ async function apiRequest(endpoint, options = {}) {
         if (response.status === 401) {
             // Unauthorized - redirect to login
             removeToken();
-            window.location.href = '/index.html';
+            window.location.href = 'index.html';
             return;
         }
 
@@ -87,7 +87,7 @@ async function apiRequestFormData(endpoint, formData, options = {}) {
 
         if (response.status === 401) {
             removeToken();
-            window.location.href = '/index.html';
+            window.location.href = 'index.html';
             return;
         }
 
