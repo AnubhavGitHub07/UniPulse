@@ -1,8 +1,11 @@
 <!-- ========== UNIPULSE BANNER ========== -->
 <p align="center">
- <img width="1536" height="1024" alt="ChatGPT Image Nov 24, 2025, 02_18_05 PM" src="https://github.com/user-attachments/assets/0dce478a-a3d0-4fc3-a736-4dc937dd125a" />
-
+  <img src="https://github.com/user-attachments/assets/0dce478a-a3d0-4fc3-a736-4dc937dd125a" 
+       alt="UniPulse Banner"
+       width="450"
+       style="border-radius: 10px;" />
 </p>
+
 
 <h1 align="center">🌐 UniPulse</h1>
 <h3 align="center">A Unified Student Productivity Hub</h3>
