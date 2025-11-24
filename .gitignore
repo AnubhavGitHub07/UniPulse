@@ -64,3 +64,10 @@ htmlcov/
 coverage.xml
 *.cover
 
+node_modules/
+.env
+__pycache__/
+dist/
+.vscode/
+
+
